@@ -14,7 +14,9 @@ router.post('/get-hs-scores', (req, res) => {
     var options = {
         url : url, 
         headers: {
-           'User-Agent': 'request'
+           'User-Agent': 'scores.newsday.com',
+	   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15'
+
         }
     };
     request(options, (error, response, body) => {
