@@ -102,165 +102,165 @@ router.post('/get-hs-scores', (req, res) => {
         });
         let xyz = [
             {
-                "date": "Monday Apr 04",
+                "date": "Tuesday Apr 05",
                 "scores": [
                     [
                         {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8252\">View game stats &#xBB;</a>",
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8435\">View game stats &#xBB;</a>",
                             "value": "F"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/riverhead\">Riverhead</a>",
-                            "value": "6"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/southampton-east-hampton-pierson\">South Fork</a>",
-                            "value": "10"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8219\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/bay-shore\">Bay Shore</a>",
-                            "value": "9"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/commack\">Commack</a>",
-                            "value": "12"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8798\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/brentwood\">Brentwood</a>",
-                            "value": "0"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/sachem-east\">Sachem East</a>",
-                            "value": "20"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8331\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/north-babylon\">North Babylon</a>",
-                            "value": "5"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/middle-country\">Middle Country</a>",
-                            "value": "18"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8801\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/smithtown-east\">Smithtown East</a>",
-                            "value": "14"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/connetquot\">Connetquot</a>",
-                            "value": "13"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8795\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/floyd\">Floyd</a>",
-                            "value": "2"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/sachem-north\">Sachem North</a>",
-                            "value": "17"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8804\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/half-hollow-hills\">Half Hollow Hills</a>",
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/ward-melville\">Ward Melville</a>",
                             "value": "8"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/ward-melville\">Ward Melville</a>",
-                            "value": "7"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8803\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/patchogue-medford\">Patchogue-Medford</a>",
-                            "value": "11"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/whitman\">Whitman</a>",
-                            "value": "3"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8362\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/lindenhurst\">Lindenhurst</a>",
-                            "value": "6"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/northport\">Northport</a>",
-                            "value": "10"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/floyd\">Floyd</a>",
+                            "value": "5"
                         }
                     ]
                 ]
             },
             {
-                "date": "Friday Apr 01",
+                "date": "Monday Apr 04",
                 "scores": [
                     [
                         {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8251\">View game stats &#xBB;</a>",
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8056\">View game stats &#xBB;</a>",
                             "value": "F"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/middle-country\">Middle Country</a>",
-                            "value": "16"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/smithtown-west\">Smithtown West</a>",
+                            "value": "7"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/riverhead\">Riverhead</a>",
-                            "value": "5"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/comsewogue\">Comsewogue</a>",
+                            "value": "8"
                         }
                     ],
                     [
                         {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8784\">View game stats &#xBB;</a>",
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8412\">View game stats &#xBB;</a>",
                             "value": "F"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/kings-park\">Kings Park</a>",
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/port-jefferson\">Port Jefferson</a>",
+                            "value": "1"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/west-islip\">West Islip</a>",
+                            "value": "12"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8426\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/rocky-point\">Rocky Point</a>",
+                            "value": "17"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/deer-park\">Deer Park</a>",
+                            "value": "3"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8428\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/harborfields\">Harborfields</a>",
                             "value": "10"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/harborfields\">Harborfields</a>",
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/west-babylon\">West Babylon</a>",
+                            "value": "11"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8056\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/smithtown-west\">Smithtown West</a>",
+                            "value": "7"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/comsewogue\">Comsewogue</a>",
+                            "value": "8"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8414\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/kings-park\">Kings Park</a>",
+                            "value": "17"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/southampton\">Southampton</a>",
+                            "value": "1"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8433\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/westhampton\">Westhampton</a>",
+                            "value": "13"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/hauppauge\">Hauppauge</a>",
+                            "value": "4"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8413\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/mattituck\">Mattituck</a>",
+                            "value": "3"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/miller-place\">Miller Place</a>",
+                            "value": "11"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8431\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/bellport\">Bellport</a>",
+                            "value": "2"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/east-islip\">East Islip</a>",
                             "value": "9"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8430\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/bayport-blue-point\">Bayport-Blue Point</a>",
+                            "value": "11"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/sayville\">Sayville</a>",
+                            "value": "8"
                         }
                     ]
                 ]
@@ -270,135 +270,150 @@ router.post('/get-hs-scores', (req, res) => {
                 "scores": [
                     [
                         {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8295\">View game stats &#xBB;</a>",
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8410\">View game stats &#xBB;</a>",
                             "value": "F"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/bellport\">Bellport</a>",
-                            "value": "8"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/connetquot\">Connetquot</a>",
+                            "value": "6"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/hauppauge\">Hauppauge</a>",
-                            "value": "16"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8799\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/smithtown-west\">Smithtown West</a>",
-                            "value": "9"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/shoreham-wading-river\">Shoreham-Wading River</a>",
-                            "value": "11"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8793\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/eastport-south-manor\">Eastport-South Manor</a>",
-                            "value": "13"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/center-moriches\">Center Moriches</a>",
-                            "value": "8"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8235\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/deer-park\">Deer Park</a>",
-                            "value": "2"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/east-islip\">East Islip</a>",
-                            "value": "15"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/9369\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/mattituck-greenport-southold\">Mattituck / Greenport / Southold</a>",
-                            "value": "4"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/westhampton\">Westhampton</a>",
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/smithtown-east\">Smithtown East</a>",
                             "value": "12"
                         }
                     ],
                     [
                         {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8794\">View game stats &#xBB;</a>",
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8421\">View game stats &#xBB;</a>",
                             "value": "F"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/miller-place\">Miller Place</a>",
-                            "value": "9"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/northport\">Northport</a>",
+                            "value": "18"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/bayport-blue-point\">Bayport-Blue Point</a>",
-                            "value": "14"
-                        }
-                    ],
-                    [
-                        {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8792\">View game stats &#xBB;</a>",
-                            "value": "F"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/sayville\">Sayville</a>",
-                            "value": "14"
-                        },
-                        {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/west-babylon\">West Babylon</a>",
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/bay-shore\">Bay Shore</a>",
                             "value": "5"
                         }
                     ],
                     [
                         {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8791\">View game stats &#xBB;</a>",
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8420\">View game stats &#xBB;</a>",
                             "value": "F"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/babylon\">Babylon</a>",
-                            "value": "7"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/sachem-east\">Sachem East</a>",
+                            "value": "10"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/rocky-point\">Rocky Point</a>",
-                            "value": "8"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/whitman\">Whitman</a>",
+                            "value": "5"
                         }
                     ],
                     [
                         {
-                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8800\">View game stats &#xBB;</a>",
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8425\">View game stats &#xBB;</a>",
                             "value": "F"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/west-islip\">West Islip</a>",
-                            "value": "4"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/floyd\">Floyd</a>",
+                            "value": "9"
                         },
                         {
-                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/mt-sinai\">Mt Sinai</a>",
-                            "value": "15"
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/longwood\">Longwood</a>",
+                            "value": "1"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8424\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/huntington\">Huntington</a>",
+                            "value": "12"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/half-hollow-hills\">Half Hollow Hills</a>",
+                            "value": "8"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "Friday Apr 01",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8055\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/sayville\">Sayville</a>",
+                            "value": "6"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/smithtown-west\">Smithtown West</a>",
+                            "value": "5"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8419\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/rocky-point\">Rocky Point</a>",
+                            "value": "9"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/shoreham-wading-river\">Shoreham-Wading River</a>",
+                            "value": "11"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "Thursday Mar 31",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8390\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/ward-melville\">Ward Melville</a>",
+                            "value": "8"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/sachem-north\">Sachem North</a>",
+                            "value": "1"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "Wednesday Mar 30",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-girls/8403\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/riverhead\">Riverhead</a>",
+                            "value": "8"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-girls/longwood\">Longwood</a>",
+                            "value": "11"
                         }
                     ]
                 ]
             }
         ]
         // res.send(theNewScores);
-        res.send(xyz);
+         res.send(xyz);
     })
 });
 
