@@ -100,7 +100,309 @@ router.post('/get-hs-scores', (req, res) => {
                 scores
             })
         });
-        res.send(theNewScores);
+        let xyz = [
+            {
+                "date": "Friday Apr 01",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8455\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/lynbrook\">Lynbrook</a>",
+                            "value": "8"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/wantagh\">Wantagh</a>",
+                            "value": "15"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8455\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/lynbrook\">Lynbrook</a>",
+                            "value": "8"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/wantagh\">Wantagh</a>",
+                            "value": "15"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/9297\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/locust-valley\">Locust Valley</a>",
+                            "value": "11"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/wheatley-carle-place\">Wheatley/Carle Place</a>",
+                            "value": "9"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8456\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/floral-park\">Floral Park</a>",
+                            "value": "7"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/plainedge\">Plainedge</a>",
+                            "value": "15"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8457\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/island-trees\">Island Trees</a>",
+                            "value": "7"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/north-shore\">North Shore</a>",
+                            "value": "13"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8458\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/friends-academy\">Friends Academy</a>",
+                            "value": "7"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/hewlett\">Hewlett</a>",
+                            "value": "15"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "Thursday Mar 31",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/9356\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/garden-city\">Garden City</a>",
+                            "value": "11"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/calhoun\">Calhoun</a>",
+                            "value": "6"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/9356\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/garden-city\">Garden City</a>",
+                            "value": "11"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/calhoun\">Calhoun</a>",
+                            "value": "6"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8449\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/malverne-east-rockaway\">Malverne / East Rockaway</a>",
+                            "value": "7"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/mineola\">Mineola</a>",
+                            "value": "13"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "Tuesday Mar 29",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8436\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/south-side\">South Side</a>",
+                            "value": "10"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/calhoun\">Calhoun</a>",
+                            "value": "5"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8436\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/south-side\">South Side</a>",
+                            "value": "10"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/calhoun\">Calhoun</a>",
+                            "value": "5"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/9295\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/friends-academy\">Friends Academy</a>",
+                            "value": "3"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/wheatley-carle-place\">Wheatley/Carle Place</a>",
+                            "value": "10"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8435\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/mineola\">Mineola</a>",
+                            "value": "7"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/island-trees\">Island Trees</a>",
+                            "value": "18"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8436\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/south-side\">South Side</a>",
+                            "value": "10"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/calhoun\">Calhoun</a>",
+                            "value": "5"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8439\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/hewlett\">Hewlett</a>",
+                            "value": "10"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/malverne-east-rockaway\">Malverne / East Rockaway</a>",
+                            "value": "4"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "Wednesday Mar 23",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8324\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/glen-cove\">Glen Cove</a>",
+                            "value": "9"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/bellmore-jfk\">Bellmore JFK</a>",
+                            "value": "10"
+                        }
+                    ],
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8324\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/glen-cove\">Glen Cove</a>",
+                            "value": "9"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/bellmore-jfk\">Bellmore JFK</a>",
+                            "value": "10"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "No result is available.",
+                "scores": []
+            },
+            {
+                "date": "Saturday Apr 02",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/9372\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/roslyn\">Roslyn</a>",
+                            "value": "4"
+                        },
+                        {
+                            "key": "Fairfield Warde Ct",
+                            "value": "6"
+                        }
+                    ]
+                ]
+            },
+            {
+                "date": "Saturday Mar 26",
+                "scores": [
+                    [
+                        {
+                            "key": "<a href=\"/sports/highschool/game/lacrosse-boys/8417\">View game stats &#xBB;</a>",
+                            "value": "F"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/baldwin\">Baldwin</a>",
+                            "value": "12"
+                        },
+                        {
+                            "key": "<a href=\"/sports/highschool/team/lacrosse-boys/sewanhaka\">Sewanhaka</a>",
+                            "value": "1"
+                        }
+                    ]
+                ]
+            }
+        ]
+        res.send(xyz);
     })
 });
 
