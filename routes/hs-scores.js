@@ -9,7 +9,7 @@ router.post('/get-hs-scores', (req, res) => {
 
     var theUrl = "http://tourneymachine.com/Public/Results/Division.aspx?IDTournament=h20171018142428327245ada17a12c44&IDDivision=h201710181438463598c0556dae69544";
     //const url = "https://scores.newsday.com/sports/highschool/scores/lacrosse-boys/suffolk";
-    
+
     const url = req.body.url;
     var options = {
         url : url, 
@@ -20,8 +20,7 @@ router.post('/get-hs-scores', (req, res) => {
     };
     console.log("hell", options)
     request(options, (error, response, body) => {
-        //console.log(body);
-        //res.send(body);
+        
         let $ = cheerio.load(body);
         var theScores = [];
 
@@ -33,7 +32,6 @@ router.post('/get-hs-scores', (req, res) => {
                     var scores = [];
                     $(this).children().each(function(i) {
                         if(!$(this).is('p')){
-                            //console.log(sendTheScoresPerTable(this));
                             scores.push(sendTheScoresPerTable(this));
                         }
                         else {
@@ -100,15 +98,48 @@ router.post('/get-hs-scores', (req, res) => {
                 scores
             })
         });
+
+       
+        var outerData = []
+        detailedScoreFethingArray = []
+        theNewScores.forEach(matches => {
+            matches.scores.forEach(score => {
+                let rendomId = Math.random().toString(36).slice(6)
+                let $_$1 = cheerio.load(score[0].key);
+    
+                outerData.push({
+                    id : rendomId,
+                    date : matches.date,
+                    url :   $_$1('a[href]').attr('href'),
+                    match : {
+                           "1" : {
+                             name: cheerio.text(cheerio.load(score[1].key)('body')) ?  cheerio.text(cheerio.load(score[1].key)('body')) : score[1].key,
+                             score : cheerio.text(cheerio.load(score[1].value)('body')) ?  cheerio.text(cheerio.load(score[1].value)('body')) : score[1].value,
+                        },
+                        "2" : {
+                            name: cheerio.text(cheerio.load(score[2].key)('body')) ?  cheerio.text(cheerio.load(score[2].key)('body')) : score[2].key,
+                            score : cheerio.text(cheerio.load(score[2].value)('body')) ?  cheerio.text(cheerio.load(score[2].value)('body')) : score[2].value,
+                       }
+                  
+                        }
+                })
+               
+            })
+    
+        })
         
-         res.send(theNewScores);
-      //  res.send(xyz);
+         res.send(outerData);
     })
 });
 
 router.post('/get-detailed-score', (req, res) => {
-    
-    var detailScoreUrl = "https://scores.newsday.com" + req.body.link;
+    let outerData = req.body.outerData
+    var innerData = [] 
+    var item = outerData.length
+    outerData.forEach(data  => {
+        
+   
+    var detailScoreUrl = "https://scores.newsday.com" + data.url;
 
     var options = {
         url : detailScoreUrl, 
@@ -128,7 +159,6 @@ router.post('/get-detailed-score', (req, res) => {
                 if(i == 0) {
                     schoolName = $_$(this).find('th:first-child').html();	
                 }else {
-                    console.log(this);
                     if($_$(this).html().trim() != ""){
                         schoolScore.push({
                             name: $_$(this).find('td:nth-child(1) > a').html(),
@@ -145,8 +175,16 @@ router.post('/get-detailed-score', (req, res) => {
                 schoolScore
             })
         })
-        res.send({pos: req.body.position, scoreDetail});
+        innerData.push({ id: data.id ,data : {pos: data.id, scoreDetail}})
+        if(item == 1){
+            res.send(innerData);
+
+        }else {
+            item = item - 1 
+        }
     })
+});
+
 
 })
 module.exports = router;
